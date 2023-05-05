@@ -89,6 +89,7 @@ void *nvalloc_malloc_to(size_t size, void **ptr)
         void *ret;
 
 #ifdef SLAB_MORPHING
+//        puts("SLAB_MORPHING");
         while (true)
         {
 #endif
